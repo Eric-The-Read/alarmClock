@@ -33,7 +33,7 @@ I tried to structure this project in a logical and intuitive manner, although I 
 
 - PySimpleGUI [documentation](https://pysimplegui.readthedocs.io/en/latest/) & [Cookbook](https://pysimplegui.readthedocs.io/en/latest/cookbook/)
 
-- [This](https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory) Stackoverflow question
+- [This](https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory) Stackoverflow question regarding listing all files in a directory.
 
 - Default sounds are from [soundbible.com](https://soundbible.com/)
 
@@ -47,5 +47,5 @@ I tried to structure this project in a logical and intuitive manner, although I 
 
 - [shipBell.wav](https://soundbible.com/1746-Ship-Bell.html) Attribution: Mike Koenig, CC BY 3.0, <https://creativecommons.org/licenses/by/3.0/>, via Sound Bible
 
--[rooster.wav](https://soundbible.com/1218-Rooster-Crow.html) Attribution: Mike Koenig, CC BY 3.0, <https://creativecommons.org/licenses/by/3.0/>, via Sound Bible
+- [rooster.wav](https://soundbible.com/1218-Rooster-Crow.html) Attribution: Mike Koenig, CC BY 3.0, <https://creativecommons.org/licenses/by/3.0/>, via Sound Bible
 
