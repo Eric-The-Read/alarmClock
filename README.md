@@ -14,7 +14,7 @@ Ability to customize an alarm, which includes:
 - Selecting days alarm plays
 - Toggle alarm on/off
 
-The time can also be formatted using the format codes in the datetime module. The formatting codes are described [here](https://docs.python.org/3/library/datetime.html)
+The time can also be formatted using the format codes in the datetime module, described [here](https://docs.python.org/3/library/datetime.html)
 
 # Running
 ```
