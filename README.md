@@ -27,7 +27,7 @@ I tried to structure this project in a logical and intuitive manner, although I 
 
 # Credits
 
-- [jason990420](https://github.com/PySimpleGUI/PySimpleGUI/issues/3668 )-> Triggering Combobox drop down menu on mouse hover event
+- [jason990420](https://github.com/PySimpleGUI/PySimpleGUI/issues/3668 )-> Example for triggering a combo box to drop down automatically when the mouse hovers over it
 
 - MikeTheWatchGuy's examples on PySimpleGUI github issues page
 
