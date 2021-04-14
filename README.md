@@ -1,14 +1,11 @@
 # Alarm Clock
-
-This is an alarm clock made using PySimpleGUI. This is one of my first projects built for a GUI.
+This is an alarm clock made using the PySimpleGUI library. This is one of my first projects built for a GUI.
 
 # Motivation
-
-My motivation for this project was to build an alarm clock with some or most of the functionality one would expect from a regular alarm clock app. I wanted to learn how to structure a python project, `import` from submodules, etc. Additionally, I wanted to learn how to build a GUI, so I decided to start with something that most people use on a daily basis.
+My motivation for this project was to build an alarm clock with some/most of the functionality one would expect from a regular alarm clock app. I wanted to learn how to structure a python project, `import` from submodules, etc. Additionally, I wanted to learn how to build a GUI, so I decided to start with something that most people use on a daily basis.
 
 # Features
-
-Ability to customize an alarm, which includes:
+Ability to customize alarms, which includes:
 - Alarm tones
 - Renaming an alarm
 - Selecting days alarm plays
@@ -17,16 +14,19 @@ Ability to customize an alarm, which includes:
 The time can also be formatted using the format codes in the datetime module, described [here](https://docs.python.org/3/library/datetime.html)
 
 # Running
+To install dependencies:
 ```
-cd /path/to/directory/
-python ./cli.py
+pip install /path/to/alarmClock
 ```
-# Note
+Next, open alarm clock app using:
+```
+python /path/to/alarmClock/cli.py
+```
 
+# Note
 I tried to structure this project in a logical and intuitive manner, although I imagine that the organizational system and the code contained within are a nightmare to more experienced programmers. I would love to hear your feedback, questions or concerns regarding this project.
 
 # Credits
-
 - [jason990420](https://github.com/PySimpleGUI/PySimpleGUI/issues/3668 )-> Example for triggering a combo box to drop down automatically when the mouse hovers over it
 
 - MikeTheWatchGuy's examples on PySimpleGUI github issues page
@@ -38,7 +38,6 @@ I tried to structure this project in a logical and intuitive manner, although I 
 - Default sounds are from [soundbible.com](https://soundbible.com/)
 
 ## Sound Files
-
 - [siren.ogg](https://commons.wikimedia.org/wiki/File:Alarm_(Sirenenprobe_am_5._Oktober_2019)_in_%C3%96sterreich_1_Min_auf_und_ab.ogg) Attribution: 32-Fuß-Freak, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
 - [pager.wav](https://soundbible.com/1766-Fire-Pager.html) Attribution: jason, Public Domain, via Sound Bible
