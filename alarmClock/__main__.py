@@ -1,10 +1,12 @@
 import os
 import pickle
-import PySimpleGUI as sg
 from datetime import datetime
-from alarmClock.windows import alarmPlaying, dateOptions, editAlarm, newAlarm
+
+import PySimpleGUI as sg
+
 from alarmClock.clock import Clock
 from alarmClock.settings import clocks, dateFmt
+from alarmClock.windows import alarmPlaying, dateOptions, editAlarm, newAlarm
 
 def main():
     layout = [
@@ -48,7 +50,6 @@ def main():
                                                                     #of each instance of the Clock class from the `clocks` list
             opened = False                                          #Set opened to False so clocks.pickle is only accessed once 
                                                                         
-
         elif event in ['Exit', sg.WIN_CLOSED]:                      
             with open(f'data/clock.pickle', 'wb') as outF:          #When main window is closed, overwrite clock.pickle
                                                                     #w/ the items in the `clocks` list
